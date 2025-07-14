@@ -1,0 +1,85 @@
+# === Rust / Cargo ===
+/target/
+**/*.rs.bk
+
+# === Cargo.lock ===
+# Uncomment below if you're building a library (not a binary)
+/Cargo.lock
+
+# === IDEs and Editors ===
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (CLion, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim / Neovim
+*~
+*.swp
+*.swo
+*.un~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# === OS Specific ===
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS: Icon files and metadata
+Icon?
+._*
+
+# macOS: Thumbnails
+._.DS_Store
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# === Logs / Temp / Misc ===
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+
+# === Byproducts ===
+*.lock
+*.exe
+*.dll
+*.dylib
+*.so
+*.a
+*.lib
+*.obj
+*.o
+*.rlib
+*.rmeta
+
+# === Coverage / Test outputs ===
+/coverage/
+/htmlcov/
+/*.profraw
+
+# === Custom build output ===
+/build/
+/dist/
